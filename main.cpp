@@ -11,5 +11,6 @@ int main() {
   NodeTest* test = new NodeTest();
   test->run();
 
+  delete test;
   return 0;
 }

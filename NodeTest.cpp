@@ -69,5 +69,4 @@ void NodeTest::test1_setNext() {
   std::cout<<"TEST 4: setNext() sets the next node correctly. --> ";
   printPassFail(nodeTest->getValue() == 2);
   delete node2;
-  delete nodeTest;
 }
